@@ -1,0 +1,17 @@
+body {
+  font-family: Arial;
+  max-width: 600px;
+  margin: auto;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
